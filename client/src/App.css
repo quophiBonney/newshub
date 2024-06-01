@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+
+  padding: 2rem;
+  --primary: #fe0036;
+}
+body {
+  background: #000 !important;
+}
+.logo-text {
+  font-size: 25px;
+}
+.btn-signup,
+.btn-login {
+  background: var(--primary) !important;
+  outline: none !important;
+}
+.btn-signup:hover,
+.btn-login:hover {
+  background: #fe0037dc !important;
+}
+.btn-signup:active,
+.btn-login:active {
+  transform: scale(1.05);
+}
